@@ -13,5 +13,6 @@ public interface HeadLineService {
      * @return
      * @throws IOException
      */
+    public static String HLLISTKEY = "headlinelist";
     List<HeadLine> getHeadLineList(HeadLine headLineCondition) throws IOException;
 }

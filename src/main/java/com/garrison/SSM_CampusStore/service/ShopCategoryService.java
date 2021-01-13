@@ -7,6 +7,7 @@ import java.util.List;
 
 public interface ShopCategoryService {
 
+    public static String SCLISTKEY = "shopcategorylist";
     List<ShopCategory> getShopCategoryList(ShopCategory shopcategoryCondition);
 
 
