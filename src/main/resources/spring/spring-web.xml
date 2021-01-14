@@ -53,7 +53,7 @@
             <mvc:exclude-mapping path="/shopadmin/shopmanagement" />
             <mvc:exclude-mapping path="/shopadmin/getshopmanagementinfo" />
             <bean id="ShopPermissionInterceptor"
-                  class="com.garrison.SSM_CampusStore.interceptor.shopadmin.ShopPermissonInterceptor" />
+                  class="com.garrison.SSM_CampusStore.interceptor.shopadmin.ShopPermissionInterceptor" />
         </mvc:interceptor>
     </mvc:interceptors>
 
